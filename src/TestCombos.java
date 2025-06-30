@@ -11,6 +11,10 @@ public class TestCombos {
         Combo combo2 = new Combo(100, "Doble queso", 10000, 500, 15);
         ComboEspecial combo3 = new ComboEspecial(110, "Submarino", 20000, 1115, 30, 6000);
 
+        pizzeria.agregarCombo(combo1);
+        pizzeria.agregarCombo(combo2);
+        pizzeria.agregarCombo(combo3);
+
         Obsequio obsequio1 = new Obsequio(300, "Oso de peluche", 5000);
         Obsequio obsequio2 = new Obsequio(305, "Espada iluminada", 4500);
 
