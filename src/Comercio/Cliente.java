@@ -20,15 +20,19 @@ public class Cliente {
         return puntosAcumulados;
     }
 
-    public void descontarPuntos(float puntos) {
+    public void descontarPuntos(int puntos) {
         puntosAcumulados -= puntos;
     }
 
-    public void sumarPuntos(float puntos) {
+    public void sumarPuntos(int puntos) {
         puntosAcumulados += puntos;
     }
 
     public void agregarCompra(Compra compra) {
         listaCompras.add(compra);
+    }
+
+    public List<Compra> getListaCompras() {
+        return listaCompras;
     }
 }

@@ -14,4 +14,12 @@ public class Obsequio {
     public float getPrecio() {
         return precio;
     }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
 }

@@ -36,10 +36,6 @@ public class Combo {
     }
 
     public boolean esPosibleCanjearCombo(float puntajeAcumulado) {
-        if (puntajeAcumulado >= puntosNecesarios) {
-            return true;
-        } else {
-            return false;
-        }
+        return puntajeAcumulado >= puntosNecesarios;
     }
 }

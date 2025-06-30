@@ -1,7 +1,5 @@
 package Comercio;
 
-import com.sun.jdi.FloatType;
-
 import java.util.ArrayList;
 import java.util.List;
 
