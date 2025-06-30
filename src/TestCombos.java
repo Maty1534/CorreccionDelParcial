@@ -1,4 +1,4 @@
-import Comercio.*;
+import comercio.*;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Comercio;
+package comercio;
 
 public class Obsequio {
     private int codigo;
